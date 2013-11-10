@@ -72,7 +72,7 @@ public enum DataMenuItem {
     DIAMOND(DataMenuType.HORSE_ARMOUR, PetData.DIAMOND, Material.getMaterial(419), 1, (short) 0, "Diamond", "Armour"),
 
     BACK(DataMenuType.OTHER, null, Material.BOOK, 1, (short) 0, "Back", "Return to the main menu."),
-    CLOSE(DataMenuType.OTHER, null, Material.BOOK, 1, (short) 0, "Close", "Close the Pet Menu");
+    CLOSE(DataMenuType.OTHER, null, Material.BOOK, 1, (short) 0, "Close", "Close");
 
     private DataMenuType type;
     private PetData dataLink;

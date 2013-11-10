@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 public enum Lang {
 
-    PREFIX("prefix", "&4[&cEchoPet&4]&r"),
+    PREFIX("prefix", "&4[&cTitanium&4]&r"),
 
     NO_PERMISSION("no_permission", "&6%perm% &epermission needed to perform that action."),
     PETS_DISABLED_HERE("pets_disabled_here", "&ePets are not allowed here."),
@@ -19,8 +19,8 @@ public enum Lang {
     STRING_ERROR("string_error", "&eError parsing String: [&6%string%&e]. Please revise command arguments."),
 
     DIMENSION_CHANGE("dimension_change", "&eDimension change initiated. Warping space and time to retrieve your Pet..."),
-    AUTOSAVE_PET_LOAD("autosave_pet_load", "&eYour last active pet (&6%petname%&e) now follows close behind you."),
-    DEFAULT_PET_LOAD("default_pet_load", "&eYour default pet &e(&6%petname%&e) now follows close behind you."),
+    AUTOSAVE_PET_LOAD("autosave_pet_load", "&eYour pet (&6%petname%&e) is loaded."),
+    DEFAULT_PET_LOAD("default_pet_load", "&eYour pet &e(&6%petname%&e) is following you."),
     DATABASE_PET_LOAD("sql_pet_load", "&eYour Saved Pet (&6%petname%&e) now follows close behind you."),
 
     NO_PET("no_pet", "&eYou don't currently have a pet."),
